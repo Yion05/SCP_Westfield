@@ -34,10 +34,10 @@ export const HeroFourText = () => {
 
   return (
     <h1
-      className={`absolute text-7xl bottom-28 left-56 max-w-xl text-background-700 ${leftSlide}`}
+      className={`absolute text-7xl bottom-20 left-56 max-w-xl text-background-700 ${leftSlide}`}
       ref={sectionRef as React.RefObject<HTMLDivElement>}
     >
-      URATED FOR HOLISTIC LIVING
+      CURATED FOR HOLISTIC LIVING
     </h1>
   );
 };
