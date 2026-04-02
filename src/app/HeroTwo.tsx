@@ -36,7 +36,7 @@ const HeroTwo = () => {
         invite residents to connect, unwind, and thrive. Strategically located
         within walking distance of LRT and BRT stations, every aspect of the
         development ensures effortless access to the city while maintaining a
-        serene retreat at home
+        serene retreat at home.
       </p>
       <p className={`text-2xl font-normal text-primary-800 ${topSlide}`}>
         From modern architectural touches to tranquil outdoor spaces, SCP
