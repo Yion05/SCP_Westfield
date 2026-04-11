@@ -1,26 +1,14 @@
-import ReactPlayer from "react-player";
 import HeroTwo from "./HeroTwo";
 import HeroThree from "./HeroThree";
 import { HeroFour, HeroFourText } from "./HeroFour";
 import { HeroFive, HeroFiveNext } from "./HeroFive";
 import { MapHero } from "./Map";
+import Overview from "../components/Overview";
 
 export default function Home() {
   return (
     <div className=" font-family overflow-hidden">
-      <section>
-        <div className={`bg-background-200 pb-24`}>
-          <ReactPlayer
-            className=""
-            src="https://westfield.webfx.com.my/wp-content/uploads/2026/03/Westfield-Website-Landing-Video-Desktop-Version.mp4"
-            loop={true}
-            playing={true}
-            muted={true}
-            width="100%"
-            height="100%"
-          />
-        </div>
-      </section>
+      <Overview />
 
       <section className="bg-background-200 flex flex-col items-center max-w-full">
         <HeroTwo></HeroTwo>

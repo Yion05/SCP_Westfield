@@ -1,5 +1,3 @@
-import { Link } from "react-router";
-import { headerNav } from "../data/header.data";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 
@@ -21,7 +19,7 @@ export default function Header() {
           </div>
 
           {/* desktop */}
-          <nav className="hidden md:flex space-x-8">
+          {/* <nav className="hidden md:flex space-x-8">
             {headerNav.map((data, index) => (
               <Link
                 key={index}
@@ -32,7 +30,7 @@ export default function Header() {
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-slate-indigo transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
               </Link>
             ))}
-          </nav>
+          </nav> */}
 
           {/* mobile */}
           <div className="md:hidden flex items-center">
@@ -47,7 +45,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div
+      {/* <div
         className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
           isOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
         }`}
@@ -64,7 +62,7 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-      </div>
+      </div> */}
     </header>
   );
 }
