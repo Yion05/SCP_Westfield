@@ -1,16 +1,16 @@
 import useLazyLoad from "../hook/useLazyLoad";
 
 const UniversityGrids: React.FC = () => {
-      const [sectionRef, isVisible] = useLazyLoad({
-        rootMargin: "0px 0px -100px 0px",
-      });
+  const [sectionRef, isVisible] = useLazyLoad({
+    rootMargin: "0px 0px -100px 0px",
+  });
 
-      const rightSlide = `
+  const rightSlide = `
     transition-all duration-1500 ease-in-out
     ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-128"}
   `;
 
-      const leftSlide = `
+  const leftSlide = `
     transition-all duration-1500 ease-in-out
     ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-128"}
   `;
@@ -18,7 +18,10 @@ const UniversityGrids: React.FC = () => {
   return (
     <section className="bg-background-200 py-20 px-4 md:px-8 font-serif">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-9 gap-6 items-stretch" ref={sectionRef as React.RefObject<HTMLDivElement>}>
+        <div
+          className="grid grid-cols-1 lg:grid-cols-9 gap-6 items-stretch"
+          ref={sectionRef as React.RefObject<HTMLDivElement>}
+        >
           <div className="lg:col-span-5 flex items-start mb-4">
             <h2 className="text-primary-600 p-6 text-justify text-lg md:text-xl lg:text-2xl uppercase font-medium leading-snug max-w-5xl">
               A{" "}
@@ -30,7 +33,9 @@ const UniversityGrids: React.FC = () => {
             </h2>
           </div>
 
-          <div className={`lg:col-span-4 flex flex-col h-full gap-2 ${rightSlide}`} >
+          <div
+            className={`lg:col-span-4 flex flex-col h-full gap-2 ${rightSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x600/2e3830/abbaae?text=Sunway+University"
@@ -46,7 +51,9 @@ const UniversityGrids: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-5 flex flex-col h-full gap-2 ${leftSlide}`} >
+          <div
+            className={`lg:col-span-5 flex flex-col h-full gap-2 ${leftSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x600/2e3830/abbaae?text=The+One+Academy"
@@ -62,7 +69,9 @@ const UniversityGrids: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-2 flex flex-col h-full gap-2 ${leftSlide}`} >
+          <div
+            className={`lg:col-span-2 flex flex-col h-full gap-2 ${leftSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x450/2e3830/abbaae?text=INTI"
@@ -78,7 +87,9 @@ const UniversityGrids: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-2 flex flex-col h-full gap-2 ${rightSlide}`} >
+          <div
+            className={`lg:col-span-2 flex flex-col h-full gap-2 ${rightSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/600x800/2e3830/abbaae?text=SEGi+College"
@@ -94,7 +105,9 @@ const UniversityGrids: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-4 flex flex-col h-full gap-2 ${leftSlide}`} >
+          <div
+            className={`lg:col-span-4 flex flex-col h-full gap-2 ${leftSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x450/2e3830/abbaae?text=Monash+Malaysia"
@@ -110,7 +123,9 @@ const UniversityGrids: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-5 flex flex-col h-full gap-2 ${rightSlide}`} >
+          <div
+            className={`lg:col-span-5 flex flex-col h-full gap-2 ${rightSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x450/2e3830/abbaae?text=Taylor's+Lakeside"
@@ -132,16 +147,16 @@ const UniversityGrids: React.FC = () => {
 };
 
 const MallBenefitsSection: React.FC = () => {
-        const [sectionRef, isVisible] = useLazyLoad({
-        rootMargin: "0px 0px -100px 0px",
-      });
+  const [sectionRef, isVisible] = useLazyLoad({
+    rootMargin: "0px 0px -100px 0px",
+  });
 
-      const rightSlide = `
+  const rightSlide = `
     transition-all duration-1500 ease-in-out
     ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-128"}
   `;
 
-      const leftSlide = `
+  const leftSlide = `
     transition-all duration-1500 ease-in-out
     ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-128"}
   `;
@@ -149,7 +164,10 @@ const MallBenefitsSection: React.FC = () => {
   return (
     <section className="bg-background-200 py-16 px-4 md:px-8 font-serif">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-9 gap-6 items-stretch" ref={sectionRef as React.RefObject<HTMLDivElement>}>
+        <div
+          className="grid grid-cols-1 lg:grid-cols-9 gap-6 items-stretch"
+          ref={sectionRef as React.RefObject<HTMLDivElement>}
+        >
           <div className="lg:col-span-5 flex items-start mb-6">
             <h2 className="text-primary-600 text-lg p-6 text-justify md:text-xl lg:text-2xl uppercase font-medium leading-snug">
               <span className="text-secondary-500 font-bold">
@@ -161,7 +179,9 @@ const MallBenefitsSection: React.FC = () => {
             </h2>
           </div>
 
-          <div className={`lg:col-span-4 flex flex-col h-full gap-2 ${rightSlide}`}>
+          <div
+            className={`lg:col-span-4 flex flex-col h-full gap-2 ${rightSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x600/2e3830/abbaae?text=Easyhome+Mall"
@@ -176,7 +196,9 @@ const MallBenefitsSection: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-4 flex flex-col h-full gap-2 ${leftSlide}`}>
+          <div
+            className={`lg:col-span-4 flex flex-col h-full gap-2 ${leftSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x600/2e3830/abbaae?text=Nu+Empire"
@@ -189,7 +211,9 @@ const MallBenefitsSection: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-5 flex flex-col h-full gap-2 ${rightSlide}`}>
+          <div
+            className={`lg:col-span-5 flex flex-col h-full gap-2 ${rightSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x450/2e3830/abbaae?text=Subang+Parade"
@@ -204,7 +228,9 @@ const MallBenefitsSection: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-5 flex flex-col h-full gap-2 ${leftSlide}`}>
+          <div
+            className={`lg:col-span-5 flex flex-col h-full gap-2 ${leftSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/800x450/2e3830/abbaae?text=Mydin"
@@ -217,7 +243,9 @@ const MallBenefitsSection: React.FC = () => {
             </div>
           </div>
 
-          <div className={`lg:col-span-4 flex flex-col h-full gap-2 ${rightSlide}`}>
+          <div
+            className={`lg:col-span-4 flex flex-col h-full gap-2 ${rightSlide}`}
+          >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
                 src="https://placehold.co/1200x600/2e3830/abbaae?text=Sunway+Pyramid"
