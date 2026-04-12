@@ -38,7 +38,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="https://placehold.co/800x600/2e3830/abbaae?text=Sunway+University"
+                src="assets/Sunway.png"
                 alt="Sunway"
                 className="w-full h-full object-cover opacity-90 transition-opacity hover:opacity-100"
               />
@@ -56,7 +56,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="https://placehold.co/800x600/2e3830/abbaae?text=The+One+Academy"
+                src="assets/Theone.png"
                 alt="The One"
                 className="w-full h-full object-cover opacity-90"
               />
@@ -74,7 +74,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="https://placehold.co/800x450/2e3830/abbaae?text=INTI"
+                src="assets/inti.png"
                 alt="INTI"
                 className="w-full h-full object-cover opacity-90"
               />
@@ -92,7 +92,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="https://placehold.co/600x800/2e3830/abbaae?text=SEGi+College"
+                src="assets/segi.png"
                 alt="SEGi"
                 className="w-full h-full object-cover opacity-90"
               />
@@ -110,7 +110,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="https://placehold.co/800x450/2e3830/abbaae?text=Monash+Malaysia"
+                src="assets/monash.png"
                 alt="Monash"
                 className="w-full h-full object-cover opacity-90"
               />
@@ -128,7 +128,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="https://placehold.co/800x450/2e3830/abbaae?text=Taylor's+Lakeside"
+                src="assets/taylor.png"
                 alt="Taylors"
                 className="w-full h-full object-cover opacity-90"
               />

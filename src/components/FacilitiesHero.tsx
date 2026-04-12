@@ -23,7 +23,7 @@ const FacilityBrief: React.FC = () => {
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             
-            <div className="absolute inset-0 bg-linear-to-bl from-background-700 via-black/20 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-bl from-black/60 via-black/40 to-transparent" />
 
             <div className="absolute bottom-0 left-0 p-8 md:p-12">
               <h3 className="text-secondary-300 font-serif text-3xl md:text-4xl mb-2">

@@ -73,10 +73,10 @@ export const TowerInfoA: TowerData[] = [
 ];
 
 export const facilityConcepts = [
-  { name: "Flow", icon: "https://placehold.co/100x100/a1765e/ffffff?text=Flow" },
-  { name: "Growth", icon: "https://placehold.co/100x100/a1765e/ffffff?text=Growth" },
-  { name: "Inspiring", icon: "https://placehold.co/100x100/a1765e/ffffff?text=Inspiring" },
-  { name: "Balance", icon: "https://placehold.co/100x100/a1765e/ffffff?text=Balance" },
+  { name: "Flow", icon: "assets/flow.png" },
+  { name: "Growth", icon: "assets/growth.png" },
+  { name: "Inspiring", icon: "assets/inspiring.png" },
+  { name: "Balance", icon: "assets/balance.png" },
 ];
 
 export const facilityLevel: FacilityData = {
@@ -135,28 +135,28 @@ export const masterPlanType: MasterPlan[] = [
         type: "A",
         builtUp: "550 sq.ft.",
         layout: "1 Bedroom, 1 Study, 1 Bathroom",
-        layoutImage: "https://placehold.com/860x707",
+        layoutImage: "assets/typea.png",
         locationTower: "https://placehold.com/600x240"
     },
         {
         type: "B",
         builtUp: "768 sq.ft.",
         layout: "3 Bedroom, 2 Bathroom",
-        layoutImage: "https://placehold.com/880x931",
+        layoutImage: "assets/typeb.png",
         locationTower: "https://placehold.com/600x240"
     },
         {
         type: "C",
         builtUp: "868 sq.ft.",
         layout: "3 Bedroom, 1 Study, 2 Bathroom",
-        layoutImage: "https://placehold.com/1035x931",
+        layoutImage: "assets/typec.png",
         locationTower: "https://placehold.com/600x240"
     },
         {
         type: "D",
         builtUp: "1008 sq.ft.",
         layout: "4 Bedroom, 3 Bathroom",
-        layoutImage: "https://placehold.com/1185x1040",
+        layoutImage: "assets/typed.png",
         locationTower: "https://placehold.com/600x240"
     },
 ]

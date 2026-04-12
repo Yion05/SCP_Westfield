@@ -49,21 +49,21 @@ export const facilityBriefData = [
   {
     title: "Connection",
     description: "Physically and emotionally linked to life's essentials",
-    image: "https://placehold.co/600x400/2e3830/abbaae?text=Connection",
+    image: "assets/Connection.png",
   },
   {
     title: "Balance",
     description: "Harmonizing work, family, and personal rejuvenation",
-    image: "https://placehold.co/600x400/2e3830/abbaae?text=Balance",
+    image: "assets/Balance.jpeg",
   },
   {
     title: "Care",
     description: "Thoughtful design that improves everyday living",
-    image: "https://placehold.co/600x400/2e3830/abbaae?text=Care",
+    image: "assets/care.jpg",
   },
   {
     title: "Continuity",
     description: "Growth that flows with time, family, and community",
-    image: "https://placehold.co/600x400/2e3830/abbaae?text=Continuity",
+    image: "assets/continuity.jpg",
   },
 ];

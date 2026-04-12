@@ -30,7 +30,7 @@ export default function Home() {
       </section>
 
       <ConnectSanct />
-      <LocalHero />
+
 
       <section className="bg-background-200 flex flex-col items-center max-w-full relative py-24">
         <HeroFour></HeroFour>
