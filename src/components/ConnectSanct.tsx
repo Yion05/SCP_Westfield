@@ -13,7 +13,7 @@ const AmenitiesSection: React.FC = () => {
   `;
 
   return (
-    <section className="bg-background-200 py-20 px-4 font-serif">
+    <section className="bg-background-200 py-20 px-4 font-serif overflow-hidden">
       <div
         className={`max-w-6xl mx-auto ${rightSlide}`}
         ref={sectionRef as React.RefObject<HTMLDivElement>}
@@ -64,7 +64,7 @@ const QuietEnclaveSection: React.FC = () => {
   `;
 
   return (
-    <section className="bg-background-700 text-background-50 font-serif py-16 px-6 lg:px-20">
+    <section className="bg-background-700 text-background-50 font-serif py-16 px-6 lg:px-20 overflow-hidden">
       <div className={`max-w-full mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-start`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
         <div className={`${rightSlide} relative w-full aspect-4/3 lg:col-span-2 lg:aspect-square bg-background-800 rounded-sm overflow-hidden flex items-center justify-center border border-background-700`}>
           <div className="text-background-500 text-center p-4">

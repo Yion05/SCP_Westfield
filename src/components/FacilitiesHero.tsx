@@ -14,7 +14,7 @@ const FacilityBrief: React.FC = () => {
 
   return (
     <section className="bg-background-700 py-12 px-4 md:px-8">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4" ref={sectionRef as React.RefObject<HTMLDivElement>}>
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden" ref={sectionRef as React.RefObject<HTMLDivElement>}>
         {facilityBriefData.map((item, index) => (
           <div key={index} className={`relative group overflow-hidden aspect-16/10 ${topSlide}`}>
             <img 
@@ -65,7 +65,7 @@ const FacilitiesList: React.FC = () => {
 
   return (
     <section className="bg-background-200 py-20 px-6 lg:px-20 font-serif">
-      <div className="max-w-7xl mx-auto" ref={sectionRef as React.RefObject<HTMLDivElement>}>
+      <div className="max-w-7xl mx-auto overflow-hidden" ref={sectionRef as React.RefObject<HTMLDivElement>}>
         
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-8 gap-8">
           <div className={rightSlide}>

@@ -12,7 +12,7 @@ export const HeroFour = () => {
   `;
 
   return (
-    <div ref={sectionRef as React.RefObject<HTMLDivElement>} className={`${rightSlide}`}>
+    <div ref={sectionRef as React.RefObject<HTMLDivElement>} className={`${rightSlide} overflow-hidden`}>
       <img
         src="https://scpwestfield.com.my/wp-content/webp-express/webp-images/uploads/2026/03/grid-slide-banner.jpg.webp"
         alt="balance_grwoth_inspiring_image"
@@ -34,7 +34,7 @@ export const HeroFourText = () => {
 
   return (
     <h1
-      className={`absolute text-7xl bottom-20 left-56 max-w-xl text-background-700 ${leftSlide}`}
+      className={`absolute text-7xl bottom-20 left-56 max-w-xl text-background-700 ${leftSlide} overflow-hidden`}
       ref={sectionRef as React.RefObject<HTMLDivElement>}
     >
       CURATED FOR HOLISTIC LIVING

@@ -24,7 +24,7 @@ const FeatureCategory: React.FC<{ title: string; items: FeatureItem[] }> = ({
   title,
   items,
 }) => (
-  <div className="mb-4 last:mb-0">
+  <div className="mb-4 last:mb-0 overflow-hidden">
     <div className="flex items-center gap-4 mb-10">
       <div className="h-px flex-1 bg-primary-700/10"></div>
       <h3 className="text-background-500 uppercase tracking-[0.3em] text-lg font-bold">
@@ -43,7 +43,7 @@ const FeatureCategory: React.FC<{ title: string; items: FeatureItem[] }> = ({
 
 const SustainableFuture: React.FC = () => {
   return (
-    <section className="bg-background-200 py-20 px-4 md:px-8 font-serif">
+    <section className="bg-background-200 py-20 px-4 md:px-8 font-serif overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="relative flex flex-col items-center mb-20">
           <h2 className="text-primary-900 text-center">
