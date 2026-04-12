@@ -1,4 +1,6 @@
-export const livability = [
+import type { FeatureItem } from "../types/data.types";
+
+export const livability: FeatureItem[] = [
     {
         icon: "https://placehold.com/64x64",
         title: "Salt Water Pool",
@@ -36,7 +38,7 @@ export const livability = [
     },
 ];
 
-export const environment = [
+export const environment: FeatureItem[] = [
     {
         icon: "https://placehold.com/64x64",
         title: "Green Building Compliance",
@@ -59,7 +61,7 @@ export const environment = [
     }
 ];
 
-export const quality = [
+export const quality: FeatureItem[] = [
     {
         icon: "https://placehold.com/64x64",
         title: "Exterior Paint Material",
@@ -77,7 +79,7 @@ export const quality = [
     }
 ];
 
-export const safetySecurity = [
+export const safetySecurity: FeatureItem[] = [
     {
         icon: "https://placehold.com/64x64",
         title: "Multi-tier Security",

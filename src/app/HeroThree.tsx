@@ -41,7 +41,7 @@ const HeroThree = () => {
           );
         })}
       </div>
-      <div className={`grid grid-cols-3 gap-24 items-stretch max-w-5xl mt-24 ${rightSlide}`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
+      <div className={`grid grid-cols-3 gap-24 items-stretch max-w-5xl my-24 ${rightSlide}`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
         {heroData.slice(3, 6).map((data, index) => {
           const sentenceSplit = data.content.split("\n");
           return (

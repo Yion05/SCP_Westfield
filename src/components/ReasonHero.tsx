@@ -47,16 +47,3 @@ export const aspectBenefit = [
         image: "https://placehold.com/480x270",
     }
 ];
-
-export const facilityLevel = {
-    "LEVEL 1": [
-        "Management Office", 
-        "Kindergarten Room"        
-    ],
-    "LEVEL 6 & 7": [
-        "Co-working Lounge / Library"
-    ], 
-    "LEVEL 8": [
-        "50m Swimming Pool"
-    ]
-};

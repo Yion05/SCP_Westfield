@@ -1,32 +1,34 @@
-export const connectionService = [
+import type { ConnectionService, QuietEnclaveData } from "../types/data.types";
+
+export const connectionService: ConnectionService[] = [
     {
-        image: "https://placehold.com/160x160",
+        image: "https://placehold.co/160x160/a1765e/white?text=Icon",
         title: "Seamless Connectivitiy",
         description: "Easy access to BRT and LRT stations",
     },
     {
-        image: "https://placehold.com/160x160",
+        image: "https://placehold.co/160x160/a1765e/white?text=Icon",
         title: "Education Hub",
         description: "Featuring leading institution and like Sunway, SEGi, Monash University",
     },
     {
-        image: "https://placehold.com/160x160",
+        image: "https://placehold.co/160x160/a1765e/white?text=Icon",
         title: "Doorstep Convenience",
         description: "Just minutes to a variety of shopping destinations",
     },
     {
-        image: "https://placehold.com/160x160",
+        image: "https://placehold.co/160x160/a1765e/white?text=Icon",
         title: "High Quality Healthcare",
         description: "Access to high-quality healthcare facilities such as Sunway Medical Centre and SJMC",
     },
     {
-        image: "https://placehold.com/160x160",
+        image: "https://placehold.co/160x160/a1765e/white?text=Icon",
         title: "Seamless Connectivitiy",
         description: "Easy access to major highways, including LDP, NKVE, Federal Highway, ELITE and KESAS",
     },
-]
+];
 
-export const quietEnclaveInfo = {
+export const quietEnclaveInfo: QuietEnclaveData = {
     "shopping": [
         { placename: "Mydin Hypermarket", distance: "100m" },
         { placename: "Giant Hypermarket", distance: "130m" },

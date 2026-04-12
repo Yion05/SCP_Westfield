@@ -1,4 +1,4 @@
-import type { BriefInfoType, TowerData } from "../types/data.types";
+import type { BriefInfoType, FacilityData, MasterPlan, TowerData } from "../types/data.types";
 
 export const BriefInfo: BriefInfoType = {
     tenure: 'Freehold',
@@ -72,7 +72,14 @@ export const TowerInfoA: TowerData[] = [
     },
 ];
 
-export const facilityLevel = {
+export const facilityConcepts = [
+  { name: "Flow", icon: "https://placehold.co/100x100/a1765e/ffffff?text=Flow" },
+  { name: "Growth", icon: "https://placehold.co/100x100/a1765e/ffffff?text=Growth" },
+  { name: "Inspiring", icon: "https://placehold.co/100x100/a1765e/ffffff?text=Inspiring" },
+  { name: "Balance", icon: "https://placehold.co/100x100/a1765e/ffffff?text=Balance" },
+];
+
+export const facilityLevel: FacilityData = {
     "LEVEL 1": [
         "Management Office",
         "Kindergarten Room",
@@ -123,7 +130,7 @@ export const facilityLevel = {
     ]
 };
 
-export const masterPlanType = [
+export const masterPlanType: MasterPlan[] = [
     {
         type: "A",
         builtUp: "550 sq.ft.",
