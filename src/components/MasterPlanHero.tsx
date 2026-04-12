@@ -15,7 +15,7 @@ const MasterplanSection: React.FC = () => {
 
   return (
     <section className="bg-background-200 py-16 px-4 md:px-8 font-serif overflow-hidden">
-      <div className={`max-w-7xl mx-auto ${topSlide}`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
+      <div className={`max-w-7xl mx-auto ${topSlide} overflow-hidden`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
         <div className="mb-10 text-center lg:text-left">
           <h2 className="text-primary-900 text-3xl md:text-4xl uppercase tracking-tighter font-bold">
             Masterplan

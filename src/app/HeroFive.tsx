@@ -14,7 +14,7 @@ export const HeroFive = () => {
   return (
     <div
       ref={sectionRef as React.RefObject<HTMLDivElement>}
-      className={`${rightSlide}`}
+      className={`${rightSlide} overflow-hidden`}
     >
       <img
         src="https://scpwestfield.com.my/wp-content/webp-express/webp-images/uploads/2026/03/living-slide-banner.jpg.webp"
@@ -38,7 +38,7 @@ export const HeroFiveNext = () => {
   return (
     <div
       ref={sectionRef as React.RefObject<HTMLDivElement>}
-      className={`${leftSlide}`}
+      className={`${leftSlide} overflow-hidden`}
     >
       <img
         src="https://scpwestfield.com.my/wp-content/uploads/2026/03/ezgif.com-animated-gif-maker-1.gif"

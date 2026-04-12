@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 export default function Overview() {
   return (
       <section>
-        <div className={`bg-background-200 pb-24`}>
+        <div className={`bg-background-200 pb-24 overflow-hidden`}>
           <ReactPlayer
             className=""
             src="https://westfield.webfx.com.my/wp-content/uploads/2026/03/Westfield-Website-Landing-Video-Desktop-Version.mp4"

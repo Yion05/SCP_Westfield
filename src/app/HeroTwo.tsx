@@ -16,7 +16,7 @@ const HeroTwo = () => {
   `;
 
   return (
-    <div className="flex flex-col items-center text-center max-w-4xl">
+    <div className="flex flex-col items-center text-center max-w-4xl overflow-hidden">
       <h1
         className={`text-6xl text-primary-700 my-6 ${fadeAnimation}`}
         ref={sectionRef as React.RefObject<HTMLDivElement>}

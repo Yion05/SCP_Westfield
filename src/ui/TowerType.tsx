@@ -23,7 +23,7 @@ const TowerType: React.FC<TowerTypeProps> = ({
   `;
 
   return (
-    <div className={`gap-8 lg:gap-4 mt-4`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
+    <div className={`gap-8 lg:gap-4 mt-4 overflow-hidden`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
       <div
         key={type}
         className={` flex flex-row md:flex-column col-span-2 gap-4 ${topSlide}`}

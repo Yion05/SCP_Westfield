@@ -5,7 +5,6 @@ import { HeroFive, HeroFiveNext } from "./HeroFive";
 import Overview from "../components/Overview";
 import SiteHero from "../components/SiteHero";
 import ConnectSanct from "../components/ConnectSanct";
-import LocalHero from "../components/LocalHero";
 import FacilitiesHero from "../components/FacilitiesHero";
 import MasterPlanHero from "../components/MasterPlanHero";
 import JourneyMap from "../components/JourneyMap";
