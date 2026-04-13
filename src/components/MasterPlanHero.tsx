@@ -78,7 +78,7 @@ const UnitLayoutGrid: React.FC = () => {
 
   return (
     <section className="bg-background-200 py-16 px-4 font-serif">
-      <div className="max-w-7xl mx-auto grid grid-cols-2 gap-2">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-2">
         {masterPlanType.map((unit, index) => (
           <TowerType
             type={unit.type}

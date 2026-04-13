@@ -34,7 +34,7 @@ export const HeroFourText = () => {
 
   return (
     <h1
-      className={`absolute text-7xl bottom-20 left-56 max-w-xl text-background-700 ${leftSlide} overflow-hidden`}
+      className={`mt-6 md:mt-0 lg:absolute text-7xl lg:bottom-20 lg:left-56 max-w-xl text-background-700 ${leftSlide} overflow-hidden`}
       ref={sectionRef as React.RefObject<HTMLDivElement>}
     >
       CURATED FOR HOLISTIC LIVING

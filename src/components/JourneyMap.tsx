@@ -8,7 +8,7 @@ import type { FeatureItem } from "../types/data.types";
 
 const FeatureCard: React.FC<FeatureItem> = ({ icon, title, description }) => (
   <div className="flex flex-col items-center text-center px-4 max-w-70">
-    <div className="mb-4 p-3 rounded-full bg-secondary-50/50">
+    <div className="mb-4 p-3 rounded-full border-background-300 hover:border-1 hover:scale-105 group transition-all duration-300 p-2">
       <img src={icon} alt={title} className="w-12 h-12 object-contain" />
     </div>
     <h4 className="text-primary-700 font-bold uppercase text-base tracking-widest mb-2 leading-tight">
@@ -45,21 +45,21 @@ const SustainableFuture: React.FC = () => {
   return (
     <section className="bg-background-200 py-20 px-4 md:px-8 font-serif overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="relative flex flex-col items-center mb-20">
-          <h2 className="text-primary-900 text-center">
-            <span className="block text-sm uppercase tracking-[0.4em] mb-2 opacity-70">
+        <div className="relative flex flex-col items-center mb-10">
+          <h2 className="text-primary-900 text-center mt-4 md:mt-5">
+            <span className="block text-sm md:text-base uppercase tracking-[0.4em] mb-2 opacity-70">
               For
             </span>
-            <span className="text-3xl md:text-5xl uppercase tracking-tighter font-bold">
+            <span className="text-sm md:text-2xl uppercase tracking-wide">
               A Sustainable Future
             </span>
           </h2>
 
-          <div className="mt-6 md:absolute md:top-0 md:right-0">
+          <div className="mt-0 md:absolute md:top-0 md:right-0">
             <img
-              src="https://placehold.co/180x60/2e3830/60a345?text=GreenBuildingIndex"
+              src="assets/greenlogo.png"
               alt="Green Building Index"
-              className="h-12 md:h-14 object-contain"
+              className="h-18 md:h-22 object-contain"
             />
           </div>
         </div>

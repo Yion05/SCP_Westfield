@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 items-center">
           <div className="xl:col-span-8 flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
             <div className="flex flex-col items-center shrink-0">
-              <span className="text-xs uppercase tracking-[0.3em] opacity-80 mb-4">
+              <span className="text-xs text-white uppercase tracking-[0.3em] opacity-90 mb-4">
                 Crafted By
               </span>
               {/* 
@@ -32,6 +32,7 @@ const Footer: React.FC = () => {
                 alt="footer_scp_property"
                 className="w-40 lg:w-48 h-auto object-contain"
               />
+              <p className="text-white mt-2 tracking-widest">Property</p>
             </div>
 
             <div className="flex flex-col gap-6 text-center lg:text-left">
