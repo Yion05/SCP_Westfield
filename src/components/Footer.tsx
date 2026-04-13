@@ -75,10 +75,10 @@ const Footer: React.FC = () => {
               For further enquiries, please contact:
             </p>
             <a
-              href="tel:0132222015"
+              href="tel:0162653108"
               className="text-3xl md:text-5xl font-light text-white hover:text-secondary-400 transition-colors tracking-tighter"
             >
-              013 2222 015
+              016 2653 108
             </a>
             {/* 
             change website URL here, href and text
