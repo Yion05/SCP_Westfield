@@ -3,7 +3,6 @@ import HeroThree from "./HeroThree";
 import { HeroFour, HeroFourText } from "./HeroFour";
 import { HeroFive, HeroFiveNext } from "./HeroFive";
 import Overview from "../components/Overview";
-import SiteHero from "../components/SiteHero";
 import ConnectSanct from "../components/ConnectSanct";
 import FacilitiesHero from "../components/FacilitiesHero";
 import MasterPlanHero from "../components/MasterPlanHero";
@@ -14,7 +13,7 @@ export default function Home() {
     <div className=" font-family overflow-hidden">
       <Overview />
 
-      <SiteHero />
+      {/* <SiteHero /> */}
 
       <section className="bg-background-200 flex flex-col items-center max-w-full">
         <HeroTwo></HeroTwo>

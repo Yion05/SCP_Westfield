@@ -28,7 +28,7 @@ const MasterplanSection: React.FC = () => {
         <div className="relative w-full bg-white/30 backdrop-blur-sm rounded-xl border border-white/50 shadow-2xl p-4 md:p-8 lg:p-12">
           <div className="relative aspect-video w-full flex items-center justify-center">
             <img
-              src="assets/masterplan.png"
+              src="/masterplan.png"
               alt="Property Masterplan Level 9 to 44"
               className="w-full h-full object-contain mix-blend-multiply transition-opacity duration-500 hover:opacity-100 opacity-90"
             />

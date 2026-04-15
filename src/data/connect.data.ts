@@ -2,27 +2,27 @@ import type { ConnectionService, QuietEnclaveData } from "../types/data.types";
 
 export const connectionService: ConnectionService[] = [
     {
-        image: "assets/Seamless_Connectivity.png",
+        image: "/Seamless_Connectivity.png",
         title: "Seamless Connectivitiy",
         description: "Easy access to BRT and LRT stations",
     },
     {
-        image: "assets/Education_hub.png",
+        image: "/Education_hub.png",
         title: "Education Hub",
         description: "Featuring leading institution and like Sunway, SEGi, Monash University",
     },
     {
-        image: "assets/Doorstep.png",
+        image: "/Doorstep.png",
         title: "Doorstep Convenience",
         description: "Just minutes to a variety of shopping destinations",
     },
     {
-        image: "assets/High_quality.png",
+        image: "/High_quality.png",
         title: "High Quality Healthcare",
         description: "Access to high-quality healthcare facilities such as Sunway Medical Centre and SJMC",
     },
     {
-        image: "assets/excellent.png",
+        image: "/excellent.png",
         title: "Excellent Connectivitiy",
         description: "Easy access to major highways, including LDP, NKVE, Federal Highway, ELITE and KESAS",
     },

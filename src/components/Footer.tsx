@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
               change image logo here
               */}
               <img
-                src="assets/scplogo.png"
+                src="/scplogo.png"
                 alt="footer_scp_property"
                 className="w-40 lg:w-48 h-auto object-contain"
               />

@@ -38,7 +38,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="assets/Sunway.png"
+                src="/Sunway.png"
                 alt="Sunway"
                 className="w-full h-full object-cover opacity-90 transition-opacity hover:opacity-100"
               />
@@ -56,7 +56,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="assets/Theone.png"
+                src="/Theone.png"
                 alt="The One"
                 className="w-full h-full object-cover opacity-90"
               />
@@ -74,7 +74,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="assets/inti.png"
+                src="/inti.png"
                 alt="INTI"
                 className="w-full h-full object-cover opacity-90"
               />
@@ -92,7 +92,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="assets/segi.png"
+                src="/segi.png"
                 alt="SEGi"
                 className="w-full h-full object-cover opacity-90"
               />
@@ -110,7 +110,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="assets/monash.png"
+                src="/monash.png"
                 alt="Monash"
                 className="w-full h-full object-cover opacity-90"
               />
@@ -128,7 +128,7 @@ const UniversityGrids: React.FC = () => {
           >
             <div className="relative aspect-video w-full bg-background-800 border border-background-300 overflow-hidden flex-1">
               <img
-                src="assets/taylor.png"
+                src="/taylor.png"
                 alt="Taylors"
                 className="w-full h-full object-cover opacity-90"
               />

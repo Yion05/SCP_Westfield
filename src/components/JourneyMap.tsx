@@ -8,7 +8,7 @@ import type { FeatureItem } from "../types/data.types";
 
 const FeatureCard: React.FC<FeatureItem> = ({ icon, title, description }) => (
   <div className="flex flex-col items-center text-center px-4 max-w-70">
-    <div className="mb-4 p-3 rounded-full border-background-300 hover:border-1 hover:scale-105 group transition-all duration-300 p-2">
+    <div className="mb-4 p-3 rounded-full border-background-300 hover:border hover:scale-105 group transition-all duration-300">
       <img src={icon} alt={title} className="w-12 h-12 object-contain" />
     </div>
     <h4 className="text-primary-700 font-bold uppercase text-base tracking-widest mb-2 leading-tight">
@@ -57,7 +57,7 @@ const SustainableFuture: React.FC = () => {
 
           <div className="mt-0 md:absolute md:top-0 md:right-0">
             <img
-              src="assets/greenlogo.png"
+              src="/greenlogo.png"
               alt="Green Building Index"
               className="h-18 md:h-22 object-contain"
             />

@@ -49,21 +49,21 @@ export const facilityBriefData = [
   {
     title: "Connection",
     description: "Physically and emotionally linked to life's essentials",
-    image: "assets/Connection.png",
+    image: "/Connection.png",
   },
   {
     title: "Balance",
     description: "Harmonizing work, family, and personal rejuvenation",
-    image: "assets/Balance.jpeg",
+    image: "/Balance.jpeg",
   },
   {
     title: "Care",
     description: "Thoughtful design that improves everyday living",
-    image: "assets/care.jpg",
+    image: "/care.jpg",
   },
   {
     title: "Continuity",
     description: "Growth that flows with time, family, and community",
-    image: "assets/continuity.jpg",
+    image: "/continuity.jpg",
   },
 ];
