@@ -13,8 +13,6 @@ export default function Home() {
     <div className=" font-family overflow-hidden">
       <Overview />
 
-      {/* <SiteHero /> */}
-
       <section className="bg-background-200 flex flex-col items-center max-w-full">
         <HeroTwo></HeroTwo>
         <HeroThree></HeroThree>
