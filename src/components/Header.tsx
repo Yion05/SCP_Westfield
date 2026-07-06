@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-3 cursor-pointer">
               <img
-                src="https://westfield.webfx.com.my/wp-content/webp-express/webp-images/uploads/2026/03/top-logo.png.webp"
+                src="https://scpwestfield.com.my/wp-content/webp-express/webp-images/uploads/2026/03/top-logo.png.webp"
                 alt="Company Logo"
                 className="w-24 object-contain"
               />

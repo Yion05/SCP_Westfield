@@ -136,27 +136,27 @@ export const masterPlanType: MasterPlan[] = [
         builtUp: "550 sq.ft.",
         layout: "1 Bedroom, 1 Study, 1 Bathroom",
         layoutImage: "/typea.png",
-        locationTower: "https://placehold.com/600x240"
+        locationTower: "https://placehold.co/600x240"
     },
         {
         type: "B",
         builtUp: "768 sq.ft.",
         layout: "3 Bedroom, 2 Bathroom",
         layoutImage: "/typeb.png",
-        locationTower: "https://placehold.com/600x240"
+        locationTower: "https://placehold.co/600x240"
     },
         {
         type: "C",
         builtUp: "868 sq.ft.",
         layout: "3 Bedroom, 1 Study, 2 Bathroom",
         layoutImage: "/typec.png",
-        locationTower: "https://placehold.com/600x240"
+        locationTower: "https://placehold.co/600x240"
     },
         {
         type: "D",
         builtUp: "1008 sq.ft.",
         layout: "4 Bedroom, 3 Bathroom",
         layoutImage: "/typed.png",
-        locationTower: "https://placehold.com/600x240"
+        locationTower: "https://placehold.co/600x240"
     },
 ]
