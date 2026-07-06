@@ -67,16 +67,11 @@ const QuietEnclaveSection: React.FC = () => {
     <section className="bg-background-700 text-background-50 font-serif py-16 px-6 lg:px-20 overflow-hidden">
       <div className={`max-w-full mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-start`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
         <div className={`${rightSlide} relative w-full aspect-4/3 lg:col-span-2 lg:aspect-square bg-background-800 rounded-sm overflow-hidden flex items-center justify-center border border-background-700`}>
-          <div className="text-background-500 text-center p-4">
-            <p className="uppercase tracking-widest mb-2 opacity-50">
-              Map Preview Placeholder
-            </p>
-            <div className="w-full h-px bg-background-700 my-4"></div>
             <img
               src="https://scpwestfield.com.my/wp-content/webp-express/webp-images/uploads/2026/03/location-map2.jpg.webp"
               alt="location_map, subang jaya, petaling jaya, puchong, usj1"
+              className="w-full h-full object-contain"
             />
-          </div>
         </div>
 
         <div className={`flex flex-col gap-10 lg:col-span-1 ${leftSlide}`}>
