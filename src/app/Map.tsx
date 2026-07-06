@@ -13,7 +13,7 @@ export const MapHero = () => {
   const [sectionRef, isVisible] = useLazyLoad({ rootMargin: "0px" });
 
   const imageUrl =
-    "https://scpwestfield.com.my/wp-content/webp-express/webp-images/uploads/2026/03/location-map2.jpg.webp";
+    "/map.png";
 
   const handleClose = () => {
     setIsZoomed(false);

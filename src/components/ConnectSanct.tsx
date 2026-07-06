@@ -68,7 +68,7 @@ const QuietEnclaveSection: React.FC = () => {
       <div className={`max-w-full mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-start`} ref={sectionRef as React.RefObject<HTMLDivElement>}>
         <div className={`${rightSlide} relative w-full aspect-4/3 lg:col-span-2 lg:aspect-square bg-background-800 rounded-sm overflow-hidden flex items-center justify-center border border-background-700`}>
             <img
-              src="https://scpwestfield.com.my/wp-content/webp-express/webp-images/uploads/2026/03/location-map2.jpg.webp"
+              src="/map.png"
               alt="location_map, subang jaya, petaling jaya, puchong, usj1"
               className="w-full h-full object-contain"
             />
